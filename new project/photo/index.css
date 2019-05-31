@@ -1,0 +1,419 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navigation_bar{
+	position: static;
+	top: 0px;
+	background-color:rgb(255, 137, 20)!important;
+}
+
+.navbar-brand img{
+	height: 60px;
+	padding:left;
+}
+
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+	color: white!important;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#nav-bar ul li:hover{
+	color: black!important;
+
+}
+
+
+/*transition: .5s ease-in-out;
+
+
+*/
+
+.navbar{
+	background: #007b;
+}
+nav-link{
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+#carousel1 h5{
+	color: #007bff;
+	font-size: 50px;
+	font-family: cursive;
+}#carousel2 h5{
+	color: #007bff;
+	font-size: 50px;
+	font-family: cursive;
+}#carousel3 h5{
+	color: #007bff;
+	font-size: 50px;
+	font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+#slider1{
+	height: 700px!important;
+}
+#slider2{
+	height: 700px!important;
+}
+#slider3{
+	height: 700px!important;
+}
+
+#carousel3{
+	top:60%;
+	transform: translateY(-80%);
+	bottom: initial!important;
+}
+#carousel2{
+	top:60%;
+	transform: translateY(-80%);
+	bottom: initial!important;
+}
+#carousel1{
+	top:60%;
+	transform: translateY(-80%);
+	bottom: initial!important;
+}
+
+#slider{
+	width: 100%;
+}
+
+#slider{
+
+	
+	margin-bottom: 50px!important;
+
+}
+
+
+
+#about{
+	padding-top: 50px!important;
+	padding-bottom: 50px!important;
+	margin: 50px!important;
+
+}
+
+
+
+button{height: 40px!important;}
+
+
+.dummy{
+	letter-spacing: 1.22px;
+	font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progress{
+	background-color: black!important; 
+	margin:10px;
+	padding: 2px;
+	height: 30px!important;
+	color: white;
+	border-radius: 39px!important;
+}
+
+
+
+
+.pro{
+
+	text-transform: uppercase;
+	width:90px;
+	padding: 2px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.progress-bar{
+	border-radius: 39px;
+	transition: all 0.6s ease-in-out!important;
+}
+.progress-bar:hover{
+	border-radius: 59px!important;
+	background-color: orange;
+}
+
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("services.jpg");
+	background-size:cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+
+}
+
+
+#services h1{
+	text-transform: uppercase;
+	text-align: center;
+	color-profile: #efefef;
+	padding-bottom: 10px;
+
+}
+#services h1::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 2px;
+	width:200px;
+	margin: 20px auto 5px;
+
+
+}
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 40%;
+}
+h3{
+	text-transform: uppercase;
+}
+
+
+#services p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+	
+}
+
+
+.services .col-md-3:hover{
+	background-color: #007bff;
+	transition: all ease-in-out 0.6s!important;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+#team{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+
+
+.container h1{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+
+.container h1::after{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width:200px;
+	margin: 20px auto 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.profile-pic{
+	margin-top: 25px;
+
+}
+
+
+.profile-pic .img-box{
+	opacity: 0.8;
+	display: block;
+	position: relative;
+	padding: 10px;
+
+
+}
+.profile-pic .img-box:hover{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+.profile-pic .img-box img{
+	border-radius: 30%;
+	filter: grayscale(1);
+}
+.profile-pic .img-box img:hover{
+	filter: grayscale(0);
+	transition: all ease-in-out 0.5s;
+}
+
+.img-box ul li{
+	display: inline;
+}
+
+
+.ican{
+	transform: translateY(-67%);
+	font-size: 40px;
+	padding-top: 10px;
+	height: 80px;
+	width: 80px;
+
+}
+
+.profile{
+	margin-top: -70px; 
+}
+
+
+
+
+
+#brands{
+	min-height: 300px;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("back.jpg");
+	background-attachment: fixed;
+	background-position: center;
+
+
+}
+
+
+
+.brand h1{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	color: #fff;
+	text-align: center;
+
+}
+.brand h1::after{
+	content: "";
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width:200px;
+	margin: 20px auto 5px;
+
+}
+
+
+
+#photo{
+	height: 90px!important;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
